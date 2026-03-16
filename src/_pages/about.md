@@ -23,7 +23,24 @@ feedback_id: "7d0c54c6"
       <p>
         Similar to <a href="https://www.cms.gov/files/document/cclf-information-packet.pdf" target="blank" rel="noopener noreferrer">Claim and Claim Line Feed (CCLF) files</a>, BCDA offers Medicare Parts A, B, and D data, but with some key differences in formatting and update frequency. <a href="{{ '/bcda-data/comparison-bcda-cclf-files.html' | relative_url }}">Read more about using one or both data sources</a>, or map data between sources using the <a href="{{ '/assets/downloads/BCDA_Data_Dictionary.xlsx' | relative_url }}" data-tealium="download">Data Dictionary {% include sprite.html icon="file_download" class="text-middle" size="2" %}</a>.
       </p>
+      <a href="#" class="usa-button usa-button--accent-cool margin-top-2">Hello World</a>
     </div>
+  </div>
+</div>
+
+<div class="usa-accordion margin-top-4">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="true"
+      aria-controls="about-accordion-1"
+    >
+      This is a test accordion
+    </button>
+  </h4>
+  <div id="about-accordion-1" class="usa-accordion__content usa-prose">
+    <p>This is a test text box under that accordion.</p>
   </div>
 </div>
 
@@ -47,7 +64,7 @@ feedback_id: "7d0c54c6"
         <h3 class="usa-process-list__heading">Medicare approves the claims</h3>
     </li>
       <li class="usa-process-list__item about-final-item">
-        <h3 class="usa-process-list__heading">BCDA shares adjudicated claims data </h3>
+        <h3 class="usa-process-list__heading">BCDA shares partially adjudicated claims data </h3>
         <p class="usa-intro font-ui-md text-bold text-italic text-base margin-top-1">Typically 14 days after submission</p>
         <p>
           BCDA receives updated adjudicated claims data from the <a href="https://www2.ccwdata.org/web/guest/home" target="_blank" rel="noopener noreferrer">Chronic Conditions Data Warehouse (CCW)</a> every weekend. In the event of a delay, we'll make an announcement in the <a href="https://groups.google.com/g/bc-api" target="_blank" rel="noopener noreferrer">BCDA Google Group</a> with updates on when the data will be refreshed.

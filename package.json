@@ -19,5 +19,8 @@
     "gulp": "^5.0.1",
     "pa11y-ci": "^4.0.1",
     "taze": "19.8.1"
+  },
+  "devDependencies": {
+    "@figma/code-connect": "^1.4.1"
   }
 }
