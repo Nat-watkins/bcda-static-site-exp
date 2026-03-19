@@ -18,12 +18,12 @@ feedback_id: "7d0c54c6"
     <div>
       <h1>{{ page.page_title }}</h1>
       <p>
-        Beneficiary Claims Data API (BCDA) was released in February 2019 to share Medicare claims data with Accountable Care Organizations (ACOs) and other <a href="{{ '/index.html#eligible-model-entities' | relative_url }}">eligible model entities</a>. 
+        BLAHHHHH
       </p>
       <p>
         Similar to <a href="https://www.cms.gov/files/document/cclf-information-packet.pdf" target="blank" rel="noopener noreferrer">Claim and Claim Line Feed (CCLF) files</a>, BCDA offers Medicare Parts A, B, and D data, but with some key differences in formatting and update frequency. <a href="{{ '/bcda-data/comparison-bcda-cclf-files.html' | relative_url }}">Read more about using one or both data sources</a>, or map data between sources using the <a href="{{ '/assets/downloads/BCDA_Data_Dictionary.xlsx' | relative_url }}" data-tealium="download">Data Dictionary {% include sprite.html icon="file_download" class="text-middle" size="2" %}</a>.
       </p>
-      <a href="#" class="usa-button usa-button--accent-cool margin-top-2">Hello World</a>
+      <a href="#" class="usa-button usa-button--outline margin-top-2">Hello World</a>
     </div>
   </div>
 </div>
@@ -33,13 +33,13 @@ feedback_id: "7d0c54c6"
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="about-accordion-1"
     >
-      This is a test accordion
+      Hello JB!
     </button>
   </h4>
-  <div id="about-accordion-1" class="usa-accordion__content usa-prose">
+  <div id="about-accordion-1" class="usa-accordion__content usa-prose" hidden>
     <p>This is a test text box under that accordion.</p>
   </div>
 </div>
