@@ -1,5 +1,5 @@
-[!NOTE]
-This fork of the public, open-source repository for BCDA's static HTML website. This effort is for personal and experimental purposes only.
+> [!NOTE]
+> This fork of the public, open-source repository for BCDA's static HTML website. This effort is for personal and experimental purposes only.
 
 ## Figma Code Connect
 
